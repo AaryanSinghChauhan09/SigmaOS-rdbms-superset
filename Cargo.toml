@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_rdbms_superset"
+version = "0.1.0"
+edition = "2021"
+description = "Apache Superset BI integration for SigmaOS — data exploration, visualization, and self-hosted analytics"
+
+[lib]
+name = "sigmaos_rdbms_superset"
+path = "src/lib.rs"

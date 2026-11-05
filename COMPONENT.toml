@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-rdbms-superset"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "Apache Superset BI integration for SigmaOS — data exploration, visualization, and self-hosted analytics"
+upstream = ["https://github.com/apache/superset"]
+
+[contract]
+provides = ["business-intelligence", "data-exploration"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"
