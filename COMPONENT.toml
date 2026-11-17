@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-rdbms-superset"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "SigmaOS RDBMS Superset - Apache Superset dashboard and chart engine"
 upstream = ["https://github.com/apache/superset"]
@@ -11,6 +11,6 @@ provides = ["business-intelligence", "data-exploration"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles"
 next_milestone = "Verification test suite"
