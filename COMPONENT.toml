@@ -3,7 +3,7 @@ name = "SigmaOS-rdbms-superset"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Apache Superset BI integration for SigmaOS — data exploration, visualization, and self-hosted analytics"
+description = "SigmaOS RDBMS Superset - Apache Superset dashboard and chart engine"
 upstream = ["https://github.com/apache/superset"]
 
 [contract]
