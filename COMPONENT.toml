@@ -1,0 +1,5 @@
+[component]
+name = "SigmaOS-rdbms-superset"
+version = "0.1.0"
+category = "database"
+description = "SigmaOS RDBMS — Apache Superset BI on relational data"
